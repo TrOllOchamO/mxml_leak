@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/home/barnabe/Documents/mxml_leak/build/src",
+  "command": "/usr/bin/cc  -I/home/barnabe/Documents/mxml_leak/mxml  -g -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Wno-error=unused-function -Wno-error=unused-parameter -Wno-error=unused-variable -fPIE -o CMakeFiles/main.dir/main.c.o -c /home/barnabe/Documents/mxml_leak/src/main.c",
+  "file": "/home/barnabe/Documents/mxml_leak/src/main.c",
+  "output": "src/CMakeFiles/main.dir/main.c.o"
+},
+{
+  "directory": "/home/barnabe/Documents/mxml_leak/build/mxml",
+  "command": "/usr/bin/cc  -I/home/barnabe/Documents/mxml_leak/build/mxml -I/home/barnabe/Documents/mxml_leak/mxml  -g -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Wno-error=unused-function -Wno-error=unused-parameter -Wno-error=unused-variable -fPIC -o CMakeFiles/mxml.dir/mxml-attr.c.o -c /home/barnabe/Documents/mxml_leak/mxml/mxml-attr.c",
+  "file": "/home/barnabe/Documents/mxml_leak/mxml/mxml-attr.c",
+  "output": "mxml/CMakeFiles/mxml.dir/mxml-attr.c.o"
+},
+{
+  "directory": "/home/barnabe/Documents/mxml_leak/build/mxml",
+  "command": "/usr/bin/cc  -I/home/barnabe/Documents/mxml_leak/build/mxml -I/home/barnabe/Documents/mxml_leak/mxml  -g -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Wno-error=unused-function -Wno-error=unused-parameter -Wno-error=unused-variable -fPIC -o CMakeFiles/mxml.dir/mxml-file.c.o -c /home/barnabe/Documents/mxml_leak/mxml/mxml-file.c",
+  "file": "/home/barnabe/Documents/mxml_leak/mxml/mxml-file.c",
+  "output": "mxml/CMakeFiles/mxml.dir/mxml-file.c.o"
+},
+{
+  "directory": "/home/barnabe/Documents/mxml_leak/build/mxml",
+  "command": "/usr/bin/cc  -I/home/barnabe/Documents/mxml_leak/build/mxml -I/home/barnabe/Documents/mxml_leak/mxml  -g -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Wno-error=unused-function -Wno-error=unused-parameter -Wno-error=unused-variable -fPIC -o CMakeFiles/mxml.dir/mxml-get.c.o -c /home/barnabe/Documents/mxml_leak/mxml/mxml-get.c",
+  "file": "/home/barnabe/Documents/mxml_leak/mxml/mxml-get.c",
+  "output": "mxml/CMakeFiles/mxml.dir/mxml-get.c.o"
+},
+{
+  "directory": "/home/barnabe/Documents/mxml_leak/build/mxml",
+  "command": "/usr/bin/cc  -I/home/barnabe/Documents/mxml_leak/build/mxml -I/home/barnabe/Documents/mxml_leak/mxml  -g -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Wno-error=unused-function -Wno-error=unused-parameter -Wno-error=unused-variable -fPIC -o CMakeFiles/mxml.dir/mxml-index.c.o -c /home/barnabe/Documents/mxml_leak/mxml/mxml-index.c",
+  "file": "/home/barnabe/Documents/mxml_leak/mxml/mxml-index.c",
+  "output": "mxml/CMakeFiles/mxml.dir/mxml-index.c.o"
+},
+{
+  "directory": "/home/barnabe/Documents/mxml_leak/build/mxml",
+  "command": "/usr/bin/cc  -I/home/barnabe/Documents/mxml_leak/build/mxml -I/home/barnabe/Documents/mxml_leak/mxml  -g -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Wno-error=unused-function -Wno-error=unused-parameter -Wno-error=unused-variable -fPIC -o CMakeFiles/mxml.dir/mxml-node.c.o -c /home/barnabe/Documents/mxml_leak/mxml/mxml-node.c",
+  "file": "/home/barnabe/Documents/mxml_leak/mxml/mxml-node.c",
+  "output": "mxml/CMakeFiles/mxml.dir/mxml-node.c.o"
+},
+{
+  "directory": "/home/barnabe/Documents/mxml_leak/build/mxml",
+  "command": "/usr/bin/cc  -I/home/barnabe/Documents/mxml_leak/build/mxml -I/home/barnabe/Documents/mxml_leak/mxml  -g -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Wno-error=unused-function -Wno-error=unused-parameter -Wno-error=unused-variable -fPIC -o CMakeFiles/mxml.dir/mxml-options.c.o -c /home/barnabe/Documents/mxml_leak/mxml/mxml-options.c",
+  "file": "/home/barnabe/Documents/mxml_leak/mxml/mxml-options.c",
+  "output": "mxml/CMakeFiles/mxml.dir/mxml-options.c.o"
+},
+{
+  "directory": "/home/barnabe/Documents/mxml_leak/build/mxml",
+  "command": "/usr/bin/cc  -I/home/barnabe/Documents/mxml_leak/build/mxml -I/home/barnabe/Documents/mxml_leak/mxml  -g -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Wno-error=unused-function -Wno-error=unused-parameter -Wno-error=unused-variable -fPIC -o CMakeFiles/mxml.dir/mxml-private.c.o -c /home/barnabe/Documents/mxml_leak/mxml/mxml-private.c",
+  "file": "/home/barnabe/Documents/mxml_leak/mxml/mxml-private.c",
+  "output": "mxml/CMakeFiles/mxml.dir/mxml-private.c.o"
+},
+{
+  "directory": "/home/barnabe/Documents/mxml_leak/build/mxml",
+  "command": "/usr/bin/cc  -I/home/barnabe/Documents/mxml_leak/build/mxml -I/home/barnabe/Documents/mxml_leak/mxml  -g -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Wno-error=unused-function -Wno-error=unused-parameter -Wno-error=unused-variable -fPIC -o CMakeFiles/mxml.dir/mxml-search.c.o -c /home/barnabe/Documents/mxml_leak/mxml/mxml-search.c",
+  "file": "/home/barnabe/Documents/mxml_leak/mxml/mxml-search.c",
+  "output": "mxml/CMakeFiles/mxml.dir/mxml-search.c.o"
+},
+{
+  "directory": "/home/barnabe/Documents/mxml_leak/build/mxml",
+  "command": "/usr/bin/cc  -I/home/barnabe/Documents/mxml_leak/build/mxml -I/home/barnabe/Documents/mxml_leak/mxml  -g -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Wno-error=unused-function -Wno-error=unused-parameter -Wno-error=unused-variable -fPIC -o CMakeFiles/mxml.dir/mxml-set.c.o -c /home/barnabe/Documents/mxml_leak/mxml/mxml-set.c",
+  "file": "/home/barnabe/Documents/mxml_leak/mxml/mxml-set.c",
+  "output": "mxml/CMakeFiles/mxml.dir/mxml-set.c.o"
+},
+{
+  "directory": "/home/barnabe/Documents/mxml_leak/build/mxml",
+  "command": "/usr/bin/cc  -I/home/barnabe/Documents/mxml_leak/build/mxml -I/home/barnabe/Documents/mxml_leak/mxml  -g -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Wno-error=unused-function -Wno-error=unused-parameter -Wno-error=unused-variable -fPIE -o CMakeFiles/mxml-test.dir/testmxml.c.o -c /home/barnabe/Documents/mxml_leak/mxml/testmxml.c",
+  "file": "/home/barnabe/Documents/mxml_leak/mxml/testmxml.c",
+  "output": "mxml/CMakeFiles/mxml-test.dir/testmxml.c.o"
+}
+]
