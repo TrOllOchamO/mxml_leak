@@ -78,6 +78,9 @@ add_library(${PROJECT_NAME}
     ${MXML_COLLECTIVE}
 )
 
+find_package(Threads REQUIRED)
+target_link_libraries(${PROJECT_NAME} PUBLIC Threads::Threads)
+
 # For config.h
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 
