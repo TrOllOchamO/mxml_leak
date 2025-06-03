@@ -1,5 +1,6 @@
 # mxml leak
-This repo is a quick and dirty way to reproduce a memory leak I encountered on my LTS Ubuntu 24.04.
+This repo is a quick and dirty way to reproduce a memory leak in mxml I encountered on my LTS Ubuntu 24.04 and
+covered in [this issue](https://github.com/michaelrsweet/mxml/issues/341).
 I suspect the leak not to be caused directly by mxml but instead because of a cmake miss configuration.
 The version of mxml used in this example is the one from this [fork](https://github.com/BarronKane/mxml/tree/cmake), 
 from [this PR](https://github.com/michaelrsweet/mxml/pull/330). I've used it for simplicitys sake but i've faced the
