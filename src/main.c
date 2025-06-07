@@ -25,7 +25,7 @@ int main(void) { // main 1
 }
 
 // int main(void) { // main 2
-//   // work(); <- comment 1
+//   work(); // <- comment 1
 // 	pthread_t thread;
 // 	assert(pthread_create(&thread, NULL, thread_task, NULL) == 0);
 // 	assert(pthread_join(thread, NULL) == 0);
@@ -34,7 +34,7 @@ int main(void) { // main 1
 
 // #define NB_THREADS 3
 // int main(void) { // main 3
-//   // work(); <- comment 2
+//   work(); // <- comment 2
 // 	pthread_t threads[NB_THREADS];
 // 	for (size_t i = 0; i < NB_THREADS; ++i) {
 //   	assert(pthread_create(&threads[i], NULL, thread_task, NULL) == 0);

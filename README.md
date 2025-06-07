@@ -6,7 +6,9 @@ that is why the version of mxml used in this example is the one from this [fork]
 from [this PR](https://github.com/michaelrsweet/mxml/pull/330). It turned ou that the leak was in reality caused by a miss use
 of the pthread API. 
 
-Running the main with [valgrind](https://valgrind.org/) it shows the leak of a global memory allocation.
+The last version of this repo include a proposition of fix, previously, running
+the main with [valgrind](https://valgrind.org/) was showing the leak of a global memory allocation
+below :
 ```
 ==2518462== HEAP SUMMARY:
 ==2518462==     in use at exit: 24 bytes in 1 blocks
@@ -32,3 +34,11 @@ Running the main with [valgrind](https://valgrind.org/) it shows the leak of a g
 ==2518462== For lists of detected and suppressed errors, rerun with: -s
 ==2518462== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 ```
+The fix works when the program compile mxml statically. The fix should also work
+when the library is loaded dynamically by linking mxml at compile time since
+the library will be loaded before calling the main (so the id of the thread stored 
+in `_mxml_loading_thread_id` will successfully be the main thread id (not tested)).
+The fix should work when loading the library with [`dlopen`](https://man7.org/linux/man-pages/man3/dlopen.3.html)
+in the main thread (not tested). But the leak should still happen when the library
+is loaded with [`dlopen`](https://man7.org/linux/man-pages/man3/dlopen.3.html) outside of the
+main thread (when [`dlopen`](https://man7.org/linux/man-pages/man3/dlopen.3.html) is caled in a pthread thread).
